@@ -4,6 +4,8 @@
 ; Title	:    I2C (Single) Master Implementation
 ; Author:    Peter Fleury <pfleury@gmx.ch>  http://jump.to/fleury
 ;            based on Atmel Appl. Note AVR300
+;            Changes by Ray Cannon W7GLF for 817 PLL
+;
 ; File:      $Id: i2cmaster.S,v 1.12 2008/03/02 08:51:27 peter Exp $
 ; Software:  AVR-GCC 3.3 or higher
 ; Target:    any AVR device
