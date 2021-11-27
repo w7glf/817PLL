@@ -240,7 +240,7 @@ start
 #if	DEBUG
 		bcf		TRISA, LED		; LED		// Output
 #else
-		bsf		TRISA, NORFDET	; 10 MHz Detec - Input
+		bsf		TRISA, NORFDET	; 10 MHz Detect - Input
 #endif
 		banksel OPTION_REG ; select SFR bank
 		clrf	OPTION_REG
